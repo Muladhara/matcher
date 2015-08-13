@@ -23,10 +23,10 @@ Glimpse matcher includes the major steps in data matching process:
 
 **Library**
 
--python 2.7
--py27-levenshtein
--py27-mysql
--py27-django
+- python 2.7
+- py27-levenshtein
+- py27-mysql
+- py27-django
 
 
 

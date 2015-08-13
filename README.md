@@ -18,6 +18,14 @@ Glimpse matcher includes the major steps in data matching process:
 - classification
 - clerical review and quality evaluation
 
+----
+
+*Library needed*
+
+python 2.7
+py27-levenshtein
+py27-mysql
+py27-django
 
 
 

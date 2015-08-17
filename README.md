@@ -18,7 +18,6 @@ Glimpse matcher includes the major steps in data matching process:
 - classification
 - clerical review and quality evaluation
 
-
 ----
 
 **Library**
@@ -28,6 +27,17 @@ Glimpse matcher includes the major steps in data matching process:
 - py27-mysql
 - py27-django
 
+** how to use **
 
+1. start Glimpse Configurator (python manage.py runserver)
+2. go to http://localhost:8000/admin
+3. startup your MySQL
+4. define MySQL data sources (input/output), corresponding to the datasets
+5. define a cleaning or a matching on the data sources 
+6. run the cleaning or the matching from the command line
 
+- run a cleaning
+python -m glimpse.main.Main -clean <cleaning_name>
 
+- run a matching
+python -m glimpse.main.Main -match <maching_name>

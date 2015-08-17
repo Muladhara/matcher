@@ -27,7 +27,7 @@ Glimpse matcher includes the major steps in data matching process:
 - py27-mysql
 - py27-django
 
-** how to use **
+**How to use**
 
 1. start Glimpse Configurator (python manage.py runserver)
 2. go to http://localhost:8000/admin

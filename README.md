@@ -30,7 +30,7 @@ Glimpse matcher includes the major steps in data matching process:
 **How to use**
 
 1. start Glimpse Configurator (python manage.py runserver)
-2. go to http://localhost:8000/admin
+2. go to http://localhost:8000/admin (user/pwd: ele/ele)
 3. startup your MySQL
 4. define MySQL data sources (input/output), corresponding to the datasets
 5. define a cleaning or a matching on the data sources 

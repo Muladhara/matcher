@@ -8,7 +8,7 @@ class ConfigurationManager():
     
     def __init__(self):
         self.config = config.RawConfigParser()
-        self.config.read("/Users/Eleonora/Documents/glimpse/config/matcher.cfg")
+        self.config.read("/Users/Eleonora/Documents/matcher/config/matcher.cfg")
         self.log = None
     
     def getProperty(self,section,option):
